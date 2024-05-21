@@ -1,0 +1,111 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-gray{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+.footer{
+    filter: invert(1);
+    border-color: black;
+
+}
+.nav img{
+    filter: invert(1);
+    height: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #333;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.buttons > *{
+    margin: 0 12px;
+}
+
+.Signupbtn{
+    background-color: black;
+    color: rgb(221, 206, 206);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.Signupbtn:hover{
+    font-size: 1.01rem;
+    color: white;
+    font-size: 17px;
+}
+
+.loginbtn{
+    background-color: white;
+    color: black;
+    border-radius: 21px;
+    font-weight: bold;
+    padding: 10px;
+    width: 79px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.loginbtn:hover{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+
+
+
+
